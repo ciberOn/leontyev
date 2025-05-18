@@ -5,16 +5,18 @@
 }
 
 body{
-    background: linear-gradient(rgb(24, 65, 123), rgb(43, 20, 89));
+    background: linear-gradient(rgb(50, 174, 79), rgb(9, 76, 37));
     min-height: 99vh;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     color: aliceblue
+    
 }
 
 .header{
-    border-bottom: 2px solid rgb(26, 18, 45);
-    height: 90px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQq4fhwuHtexfteNJ-oY01bwK_vHH2rUvsOg&s);
+    border-bottom: 2px solid rgb(62, 120, 69);
+    height: 178px;
 
 }
 
@@ -30,6 +32,7 @@ body{
 }
 
 .logo{
+    color: brown;
     font-size: 24px;
     margin-top: 20px;
 }
@@ -58,13 +61,27 @@ body{
 
 .contacts{
     border: 2px solid rgba(162, 224, 247, 0.818);
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 20px;
-    padding: 30px;
-    width: 350px;
+    padding: 20px;
+    width: 400px;
 }
-.contacts:nth-child(2){
-    transform: translateY(50%);
+.contacts2{
+    border: 2px solid rgba(162, 224, 247, 0.818);
+    margin-top: 10px;
+    margin-left: 36px;
+    border-radius: 20px;
+    padding: 40px;
+    width: 270px;
+}
+.contacts3{
+border: 2px solid rgba(162, 224, 247, 0.818);
+    margin-top: 10px;
+    border-radius: 20px;
+    padding:100px;
+    width: 170px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KW1acJcUHBA52zzz8sxpQc73sf0cd9e2_g&s);
+
 }
 .main__container{
     display: flex;
@@ -76,4 +93,11 @@ body{
 }
 .Clash{
     font-size: 23px;
+}
+.button{
+    background-color: rgb(255, 255, 255);
+}
+
+.counter__display {
+  margin-left: 29px;
 }
